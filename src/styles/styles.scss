@@ -1,0 +1,36 @@
+/* Variables */
+$vin-blue: #5bb7db;
+$vin-green: #60b044;
+$vin-red: #ff0000;
+$font: sans-serif;
+$primary: #333;
+$secondary: #999;
+$white: #ffffff;
+/* Styles */
+body {
+  
+  font: 14px 'Proxima Nova';
+  line-height: 1.4em;
+  color: #373F41;
+  min-width: 230px;
+  max-width: 850px;
+  margin: 0 auto;
+  -webkit-font-smoothing: antialiased;
+  -moz-font-smoothing: antialiased;
+  font-smoothing: antialiased;
+  font-weight: 300;
+}
+
+td {
+	padding: 12px;
+}
+
+h2 {
+	color: $vin-blue;
+}
+
+.savings { color: $vin-green; }
+.loss { color: $vin-red; }
+input.small { width: 46px; }
+td.fuel-savings-label { width: 175px; }
+$buttons: #78B349;
